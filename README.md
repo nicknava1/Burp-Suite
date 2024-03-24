@@ -26,7 +26,7 @@
 ![Step 3](https://github.com/nicknava1/Burp-Suite/blob/main/Burp%20Suite%20Scan/3.png)
   
 <h2>Configuring your first scan</h2>
-<p>Now there should be a new window called "New scan". You should be on the first left-hand tab called scan details. Here we will designate the target url we want to perform our vunlnerability scan on.</p>
+<p>Now there should be a new window called "New scan". You should be on the first left-hand tab called scan details. For this scan we are going to perform both a crawl and audit, so make sure it is selected. In the next field we will designate the target url we want to perform our vunlnerability scan on. We will be using the website https://ginandjuice.shop/.</p>
 
 <p><b>Note: It is important to have permission from the website owner before performing a scan like this. "ginandjuice.shop" is provided by PortSwigger for testing purposes.</b></p>
 
@@ -36,7 +36,7 @@
 
 ![Step 5](https://github.com/nicknava1/Burp-Suite/blob/main/Burp%20Suite%20Scan/5.png)
 
-<p>Your scan should now be underway, and in the mean time you should get yourself a cup of coffee. You earned it! While there are still more options for customizabilitity available, they are beyond the scope of this demonstration. The application login tab would allow you to establish a credentialed vs non-credentialed scan. This could be useful for identifying vulnerabilities to potential insider threats like disgruntled employees.</p>
+<p>Your scan should now be underway, and in the mean time you should get yourself a cup of coffee. You earned it! While there are still more options for customization available, they are beyond the scope of this demonstration. The application login tab would allow you to establish a credentialed vs non-credentialed scan. This could be useful for identifying vulnerabilities to potential insider threats like disgruntled employees.</p>
 
 <h2>Analyzing Results</h2>
 <p>It's fifteen minutes later, so now our scan is complete. Let's take a look at the results. Wow, look at these serious vulnerabilities that our scan has uncovered! You can see them under the Summary tab. They are ordered here from top to bottom by most severe to least severe.</p>
