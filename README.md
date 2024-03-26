@@ -9,8 +9,9 @@
 
 - <b>[ginandjuice.shop](https://ginandjuice.shop/)</b>
 
-<h2>Environments Used</h2>
 - <b>Windows 10</b>
+
+- <b>MITRE CWE</b>
 
 <h2>Creating a new project</h2>
 <p>First, we will begin by opening Burp Suite and creating a new project. Select new project on disk and enter a name for the project. For the purposes of this tutorial, I will be naming it Test Scan.</p>
