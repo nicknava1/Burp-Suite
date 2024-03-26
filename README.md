@@ -50,4 +50,16 @@
 
 <p>Here you can see details about the issue. This screen even explains how it discovered the exposure point, including the payload it used to take advantage of the vulnerability. Remember, this tool should only be used for ethical purposes on websites you have permission to test on!</p>
 
-<p>If you were performing this scan for a real company, it would be critical to analyze each vulnerability and create a remediation plan to make this website safe for its customers. Thankfully, the Burp Suite scanner includes valuable information like the relevant CWE associated with each detection. You can find more information about this from MITRE at https://cwe.mitre.org/. Thank you for joining me on this project, and I hope you learned something about vulnerability scanning! </p>
+<p>If you were performing this scan for a real company, it would be critical to analyze each vulnerability and create a remediation plan to make this website safe for its customers. Thankfully, the Burp Suite scanner includes valuable information like the relevant CWE associated with each detection. You can find more information about this from MITRE at https://cwe.mitre.org/.
+
+<h1>Conclusion</h1>
+
+In this project, we explored the capabilities of Burp Suite, a powerful web application vulnerability scanner, to identify and analyze common website vulnerabilities. By leveraging its crawl and audit functions, we navigated through the targeted website, mimicking real user behavior to map its structure and identify potential security exposures.
+
+The configuration of our vulnerability scan allowed us to perform a comprehensive analysis of the target URL, uncovering a range of vulnerabilities from top-level summaries to specific issues such as Cross-Site Scripting (XSS). The results provided valuable insights into the security posture of the website, highlighting critical vulnerabilities that could pose risks to its users and data.
+
+Furthermore, the project emphasized the importance of ethical considerations and obtaining permission from website owners before conducting vulnerability scans. This ethical approach ensures responsible security testing practices and mitigates the risk of unauthorized intrusion or disruption.
+
+Moving forward, it is crucial for organizations to analyze each vulnerability meticulously and develop a robust remediation plan to address the identified issues effectively. By prioritizing security measures and implementing mitigation strategies, websites can safeguard themselves against potential threats and enhance the overall safety and trustworthiness of their online platforms.
+
+Overall, this project underscores the significance of proactive security measures in safeguarding web applications and protecting against cyber threats. Through continuous vulnerability assessments and diligent security practices, organizations can bolster their defenses and maintain a resilient security posture in today's dynamic threat landscape.
